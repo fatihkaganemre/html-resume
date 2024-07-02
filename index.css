@@ -3,6 +3,10 @@
     color: #373A40;
  }
 
+ a {
+    margin-right: 10px;
+ }
+
  h3 {
     color: #DC5F00;
  }
@@ -18,4 +22,11 @@
 
  div {
     margin-left: 20px;
+ }
+
+ #footerDiv {
+    margin-left: 0px;
+    background-color: #DC5F00;
+    height: 40px;
+    margin-top: 20px;
  }
