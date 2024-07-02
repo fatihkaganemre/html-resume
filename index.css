@@ -18,6 +18,7 @@
  footer {
     background-color: #DC5F00;
     text-align: center;
+    padding: 10px;
  }
 
  div {
@@ -27,6 +28,5 @@
  #footerDiv {
     margin-left: 0px;
     background-color: #DC5F00;
-    height: 40px;
     margin-top: 20px;
  }
