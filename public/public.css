@@ -1,4 +1,9 @@
 body {
     background-color: #EEEEEE;
     color: #373A40;
+    text-align: center;
+ }
+
+ img {
+    height: 200px;    
  }
