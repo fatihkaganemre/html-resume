@@ -23,3 +23,18 @@ body {
    grid-column: 1fr 1fr;
    gap: 30px;
  }
+
+ @media (max-width: 600px) {
+   #hobbiesMainBox {
+      display: block;
+      grid-column: 1fr;
+    }
+
+    .card h3 {
+      padding-top:  20px;
+    }
+
+    .card p {
+      padding-bottom: 20px;
+    }
+ }
