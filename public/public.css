@@ -6,11 +6,14 @@ body {
 
  img {
     height: 200px;   
-    border-radius: 10px 
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px
  }
 
  #hobbiesTitle {
    grid-column: span 2;
+   font-size: 2rem;
  }
 
  .card {
