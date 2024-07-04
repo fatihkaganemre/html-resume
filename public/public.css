@@ -1,9 +1,25 @@
 body {
-    background-color: #EEEEEE;
-    color: #373A40;
+    background-color: #405D72;
+    color: #FFF8F3;
     text-align: center;
  }
 
  img {
-    height: 200px;    
+    height: 200px;   
+    border-radius: 10px 
+ }
+
+ #hobbiesTitle {
+   grid-column: span 2;
+ }
+
+ .card {
+   background-color: #758694;
+   border-radius: 30px;
+ }
+
+ #hobbiesMainBox {
+   display: grid;
+   grid-column: 1fr 1fr;
+   gap: 30px;
  }
