@@ -17,6 +17,7 @@ body {
  }
 
  .card {
+   grid-column: span 1;
    background-color: #758694;
    border-radius: 30px;
  }
@@ -25,6 +26,7 @@ body {
    display: grid;
    grid-column: 1fr 1fr;
    gap: 30px;
+   margin: 20px;
  }
 
  @media (max-width: 600px) {
