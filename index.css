@@ -25,15 +25,34 @@
     left: 0;
  }
 
- footer>small {
-   margin: 0;
-   padding: 0;
-   position: relative;
-   top: 25%;
+ #header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 20px;
  }
 
- div {
-    margin-left: 20px;
+ #content {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   margin: 20px;
+ }
+
+ #aboutMe {
+   grid-template: 1fr;
+   margin: 20px;
+ }
+
+ #aboutMe>div {
+   display: flex;
+   gap: 10px;
+ }
+
+ #languagesAndMore {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
  }
 
  #footerDiv {
@@ -45,6 +64,22 @@
 
  }
 
+ footer * {
+   margin: 0;
+   padding: 0;
+   position: relative;
+   top: 25%;
+ }
+
  .warning {
    color: rgb(202, 29, 29);
+ }
+
+ @media (max-width: 700px) {
+   #content {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin: 20px;
+    }
  }
