@@ -5,6 +5,7 @@
 
  a {
     margin-right: 10px;
+    color: #686D76;
  }
 
  h3 {
@@ -52,7 +53,7 @@
  #languagesAndMore {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
+   justify-content: flex-start;
  }
 
  #footerDiv {
