@@ -11,27 +11,33 @@ body {
     border-radius: 10px
  }
 
- #hobbiesTitle {
-   grid-column: span 2;
-   font-size: 2rem;
- }
-
  .card {
    grid-column: span 1;
    background-color: #758694;
    border-radius: 30px;
+   width: 400px;
+ }
+
+ .card>p {
+  padding: 0%;
+  margin: 20px;
+  text-align: left
+ }
+
+ .card a {
+  color: rgb(136, 212, 187);
  }
 
  #hobbiesMainBox {
-   display: grid;
-   grid-column: 1fr 1fr;
+   display: flex;
+   justify-content: center;
    gap: 30px;
    margin: 20px;
  }
 
  @media (max-width: 600px) {
    #hobbiesMainBox {
-      display: block;
+      display: grid;
       grid-column: 1fr;
     }
 
