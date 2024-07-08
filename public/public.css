@@ -1,31 +1,9 @@
 body {
     background-color: #405D72;
-    color: #FFF8F3;
-    text-align: center;
  }
 
- img {
-    height: 200px;   
-    width: 200px;
-    object-fit: cover;
-    border-radius: 10px
- }
-
- .card {
-   grid-column: span 1;
-   background-color: #758694;
-   border-radius: 30px;
-   width: 400px;
- }
-
- .card>p {
-  padding: 0%;
-  margin: 20px;
-  text-align: left
- }
-
- .card a {
-  color: rgb(136, 212, 187);
+ h1 {
+  text-align: center;
  }
 
  #hobbiesMainBox {
@@ -36,16 +14,7 @@ body {
  }
 
  @media (max-width: 600px) {
-   #hobbiesMainBox {
-      display: grid;
-      grid-column: 1fr;
-    }
-
-    .card h3 {
-      padding-top:  20px;
-    }
-
-    .card p {
-      padding-bottom: 20px;
-    }
+  #hobbiesMainBox {
+    display: grid;
+  }
  }
