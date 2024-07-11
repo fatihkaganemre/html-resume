@@ -1,4 +1,4 @@
-body {
+ body {
     background-color: #405D72;
  }
 
@@ -13,6 +13,19 @@ body {
    gap: 30px;
    margin: 20px;
  }
+
+ .dm-serif-font {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-font {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
  @media (max-width: 600px) {
   #hobbiesMainBox {
