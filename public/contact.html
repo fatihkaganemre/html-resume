@@ -17,10 +17,20 @@
 <body>
     <h1 class="dm-serif-font">Contact</h1>
     <hr>
-    <p clas="noto-serif-font">
-        Milczańska, Poznań 61- 131 / POLAND <br/>
-        +48 791 650 862 <br/>
-        fatih.kagan.emre@gmail.com <br/>
-    </p>
+    <section class="contact noto-serif-font">
+           <p>Milczańska, Poznań 61- 131 / POLAND </p>
+           <p>+48 791 650 862 </p>
+           <p>fatih.kagan.emre@gmail.com</p>
+    </section>
+
+    <section>
+        <form class="emailForm noto-serif-font">
+            <input type="text" name="title" placeholder="Title" required>
+            <textarea name="content" placeholder="Content" required rows="10"></textarea>
+            <button type="submit" class="submit">Submit</button>
+          </form>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./contact.js"></script>
 </body>
 </html>
